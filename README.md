@@ -13,9 +13,9 @@ https://github.com/iqbalpurba26/Forecasting-Penjualan-Roti.git
 2. Persiapan Lingkungan
 
 ```
-conda create --name main-ds python=3.10
-conda activate main-ds
-pip install pandas matplotlib seaborn plotly streamlit
+python -m venv env
+env\Scripts\activate.bat
+pip install --no-cache-dir -r requirements.txt
 ```
 
 3. Jalankan Aplikasi Streamlit
